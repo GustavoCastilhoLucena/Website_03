@@ -1,0 +1,54 @@
+* {
+    margin: 0 auto;
+}
+
+* body  {
+    max-width: 900px;
+}
+
+* h3 {
+    line-height: 65px;
+}
+
+* hr {
+    margin-top: 20px;
+}
+
+div.capa {
+    align-items: center;
+    display: flex;
+}
+
+div.relative {
+    display: inline-flex;
+
+}
+
+div.texto {
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-top: 1%;
+}
+
+.logo {
+    padding-top: 2.3%;
+    padding-right: 55%;
+    float:center;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    line-height: 100px;
+}
+
+#header_id {
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    min-height: fit-content;
+    height: 105px;
+    justify-content: space-between;
+    align-items: center;
+}
+

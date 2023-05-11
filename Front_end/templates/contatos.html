@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+<body background="../static/imagens/fundo2.png">
+    <h3>Entre em contato</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus voluptatem ut molestiae facere incidunt recusandae itaque reiciendis, optio doloribus? Rem animi nisi recusandae culpa consectetur modi fugit deleniti esse dolores!</p>
+    <hr>
+    <form method="post" action="/contatos">
+    
+        Seu email: <br>
+        <input type="email" name="email"><br>
+        Assunto: <br>
+        <input type="text" name="assunto"><br>
+        Descricao: <br>
+        <input type="text" name="descricao"><br>
+
+        <input type="submit" id="input_enviar_contatos">
+    </form>
+    
+    
+</body>
+{%endblock%}
