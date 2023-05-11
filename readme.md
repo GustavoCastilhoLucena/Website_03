@@ -54,6 +54,7 @@ Ainda no terminal, para instalar os requerimentos para visualizar o website, env
 
 ```
 pip install -r requirements.txt
+```
 
 Para visualizar o website deve-se executar o Flask, seguindo o comando abaixo:
 
