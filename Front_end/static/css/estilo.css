@@ -31,9 +31,10 @@ div.texto {
 }
 
 .logo {
+    display: flex;
     padding-top: 2.3%;
     padding-right: 55%;
-    float:center;
+/*     float:center; */
 }
 
 #footer {
@@ -44,11 +45,29 @@ div.texto {
 
 #header_id {
     display: flex;
-    width: 100%;
+    width: 90vw;
     max-width: 900px;
     min-height: fit-content;
     height: 105px;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
 }
 
+#capa {
+    width: 90vw;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 600px) {
+    #header_id {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .logo {
+        padding-right: 0;
+    }
+    #logo {
+        width: 50%;
+    }
+}
